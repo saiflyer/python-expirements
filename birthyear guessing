@@ -1,0 +1,6 @@
+age = input("Enter your age")
+
+birthyear = 2022 - int(age)
+print(birthyear)
+
+# Note, make sure to run it on a python ide :) im also pretty new to coding so im starting off basic
