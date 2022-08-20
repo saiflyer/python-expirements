@@ -1,0 +1,11 @@
+s1 = input("Weight:")
+s2 = input("(K)g or (L)bs:")
+if s2.upper() == "K":
+    converted = float(s1) * 2.205
+    print("Weight in lbs:" + str(converted))
+
+else:
+    converted1 = float(s1) / 2.205
+    print("Weight in kg: " + str(converted1))
+    
+    # note : run this on a python ide :)
