@@ -11,6 +11,6 @@ if t2 == "Fahrenheit":
     print("Celsius: " + str(convert2))
 
 else:
-    print("An error occured")
-
-# Make sure to run this on a python ide!!
+    print("An error occured, make sure to capitalize correctly.")
+    
+# Make sure to run this on a python ide
