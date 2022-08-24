@@ -2,12 +2,15 @@ print("Hello! Enter the temperature to convert it ")
 t1 = input("Enter here: ")
 t2 = input("Celsius or Fahrenheit? ")
 
-if t2.upper() == "Celsius":
-    converted = (float(t1) * 9/5) + 32
+if t2 == "Celsius":
+    converted = (float(t1) * 9 / 5) + 32
     print("Fahrenheit " + str(converted))
 
-if t2.upper() == "Fahrenheit":
-    convert2 = (float(t1) -32) * 5/9
+if t2 == "Fahrenheit":
+    convert2 = (float(t1) - 32) * 5 / 9
     print("Celsius: " + str(convert2))
-    
+
+else:
+    print("An error occured")
+
 # Make sure to run this on a python ide!!
