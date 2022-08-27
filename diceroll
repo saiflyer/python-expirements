@@ -1,0 +1,15 @@
+import random
+
+print("Hello! Enter 'ROLL' to roll the dice!")
+inp = input("Enter here: ").upper()
+
+alldice = [1, 2, 3, 4, 5, 6,]
+
+diceroll = random.choice(alldice)
+
+if inp == "ROLL":
+    print("Results: " + str(diceroll))
+else:
+    print("The program cannot understand your input. Try Again!")
+
+# Make sure to run this on a python ide :>
