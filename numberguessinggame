@@ -1,0 +1,23 @@
+from random import randint
+
+print("Hello there! Enter a number between 1 - 50!")
+
+inp = input("Enter here, ")
+
+i = randint(1, 50)
+
+while int(inp) != i:
+    if int(inp) > i:
+        print("Oops! Try to guess a lower number")
+        inp = input("Enter here, ")
+    elif int(inp) < i:
+        print("Oops! Try to guess a higher number")
+        inp = input("Enter here, ")
+
+if int(inp) == i:
+    print("Yay! You guessed it.")
+
+
+
+# I still have some things to work on, so expect errors occuring if you type in any unrecognizable text
+# Make sure to run this on a python ide :)
