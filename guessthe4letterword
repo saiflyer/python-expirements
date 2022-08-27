@@ -1,0 +1,17 @@
+import random
+print("Guess the four-letter word!")
+inp = input("Your guess: ")
+
+words = ["bake" , " tree", "ride", "flew", "damp", "cars", "flap", "cart", "fart", "mart", "lard", "dart", "card", "mars", "lace", "race", "hide", "exit", "rude", "dude", "mood", "food", "muse", "fuse", "tide", "beam", "calf", "vamp", "hash", "leash", "cane", "rook", "hook", "took", "cook", "rake", "make", "lake", "chit", "band", "land", "mend", "nook", "book", "look", "raft", "pack", "duck", "suck", "muck", "mole", "case", "spit", "fret", "lock", "palm", "clip", "keel", "mint", "page", "fare" ]
+
+wrd = random.choice(words)
+
+
+while inp != wrd:
+    print("Oops you failed! Try again!")
+    inp = input("Your guess: ")
+
+if inp == wrd:
+    print("Yay you got it!")
+
+# run this in a python ide!
