@@ -1,0 +1,39 @@
+import random
+
+print("WELCOME TO ROCK PAPER SCISSORS! CHOOSE YOUR MOVE!")
+inp = input("ENTER YOUR MOVE: ").lower()
+
+choice = ["rock", "paper", "scissors"]
+
+comp = random.choice(choice)
+
+if comp == "paper":
+     if inp == "rock":
+        print("The Computer: " + str(comp))
+        print("You lost!")
+if comp == "rock":
+    if inp == "paper":
+        print("The Computer: " + str(comp))
+        print("You won!")
+if comp == "scissors":
+    if inp == "rock":
+        print("The Computer: " + str(comp))
+        print("You won!")
+if comp == "rock":
+    if inp == "scissors":
+        print("The Computer: " + str(comp))
+        print("You lost!")
+if comp == "paper":
+    if inp == "scissors":
+        print("The Computer: " + str(comp))
+        print("You won!")
+if comp == "scissors":
+    if inp == "paper":
+        print("The Computer: " + str(comp))
+        print("You lost!")
+
+if inp == comp:
+    print("The Computer: " + str(comp))
+    print("You tied!")
+    
+# Use this in a python ide
