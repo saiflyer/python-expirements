@@ -1,0 +1,16 @@
+from random import randint
+
+print("Hello there! Lets generate you a secure password!")
+
+password = ""
+for obj in range(3):
+    obj = chr(randint(65, 95)).lower()
+    for job in range(3):
+        job = chr(randint(65, 100))
+    for boj in range(3):
+        boj = randint(65, 90)
+    password = (str(password + obj + job) + str(boj))
+print(password)
+
+
+# Make sure to run this on a python ide :)
