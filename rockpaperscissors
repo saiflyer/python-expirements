@@ -37,3 +37,4 @@ if inp == comp:
     print("You tied!")
     
 # Use this in a python ide
+# saiflyer on github
