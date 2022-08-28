@@ -1,0 +1,36 @@
+# an updated version of additioncalc in my repository
+
+print("Welcome to FlyersCalc")
+print("Choose an operation")
+print("(A) for Add")
+print("(S) for Subtract")
+print("(D) for Divide")
+print ("(M) For Multiply")
+inp = input().upper()
+
+if inp == "A":
+ inpt = input("1st Number: ")
+ inpt2 = input("2nd Number: ")
+ resultA = float(inpt) + float(inpt2)
+ print("Answer: " + str(resultA))
+
+if inp == "S":
+    inpt = input("1st Number: ")
+    inpt2 = input("2nd Number: ")
+    resultS = float(inpt) - float(inpt2)
+    print("Answer: " + str(resultS))
+
+if inp == "D":
+    inpt = input("1st Number: ")
+    inpt2 = input("2nd Number: ")
+    resultD = float(inpt) / float(inpt2)
+    print("Answers: " + str(resultD))
+
+if inp == "M":
+    inpt = input("1st Number: ")
+    inpt2 = input("2nd Number: ")
+    resultM = float(inpt) * float(inpt2)
+    print("Answers: " + str(resultM))
+    
+# run this on a python ide
+# credits to saiflyer on github
