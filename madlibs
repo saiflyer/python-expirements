@@ -1,0 +1,30 @@
+import random
+
+print("Mad libs generator")
+print("Enter the words that you want to be inputted in the sentence")
+
+sentence = ["Mary had a (adjective) lamb that was (adjective) cute and I really (verb) her!!", "Let me show you my (adjective) friend Cal! (pronoun) eats steak and always makes me (verb). ", "Dorothy went to (place) to go eat some (noun), (pronoun) was so hungry that (pronoun) it up!"]
+
+sentchoice = random.choice(sentence)
+
+print(sentchoice)
+
+adj = input("Adjective: ")
+adj2 = input("Adjective2: ")
+verb = input("Verb: ")
+noun = input("Noun: ")
+pronoun = input("Pronoun: ")
+place = input("Place: ")
+
+
+
+if sentchoice == "Mary had a (adjective) lamb that was (adjective) cute and I really (verb) her!!":
+    print(f"Mary had a {adj}  lamb that was {adj2} cute and I really {verb} her!!")
+if sentchoice == "Let me show you my (adjective) friend Cal! (pronoun) eats steak and always makes me (verb). ":
+    print(f"Let me show you my {adj} friend Cal! {pronoun} eats steak and always makes me {verb}. ")
+if sentchoice == "Dorothy went to (place) to go eat some (noun), (pronoun) she was so hungry that she (verb) it up!":
+    print(f"Dorothy went to {place} to go eat some {noun}, {pronoun} was so hungry that {pronoun} {verb} it up!")
+
+
+# run this on a python ide
+# credits to saiflyer on github
