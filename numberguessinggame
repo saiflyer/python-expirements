@@ -19,5 +19,5 @@ if int(inp) == i:
 
 
 
-# I still have some things to work on, so expect errors occuring if you type in any unrecognizable text
+# credits to saiflyer on github
 # Make sure to run this on a python ide :)
