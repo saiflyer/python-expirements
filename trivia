@@ -1,0 +1,34 @@
+print("Welcome to Saiflyer's Trivia! Would you like to play? (Y)es or (N)o")
+inp = input("Enter here:").upper()
+
+if inp == "Y":
+    triv1 = input("Where is Hollywood located?")
+    if "Los Angeles" or "los angeles" in triv1:
+        print("You did it!")
+        trivc = input("Who created the lightbulb?")
+        if "Eddison" or "eddison" in trivc:
+            print("Congrats you completed the trivia! Heres a cookie :)")
+    elif "Los Angeles" or "los angeles" not in triv1:
+        print("Oops thats wrong!")
+        trivm = input("Who created the lightbulb?")
+        if "Eddison" or "eddison" in trivm:
+            print("Atleast you got half of it right :)")
+    elif "Los Angeles" or "los angeles" not in triv1:
+        print("Oops thats wrong!")
+        trivm = input("Who created the lightbulb?")
+        if "Eddison" or "eddison" not in trivm:
+            print("Oh no! You got all of them wrong!")
+    if "Los Angeles" or "los angeles" in triv1:
+        print("You did it!")
+        trivc = input("Who created the lightbulb?")
+        if "Eddison" or "eddison" not in trivc:
+            print("Atleast you got half of it right :)")
+
+if inp == "N":
+    print("Well have a nice day!")
+
+if inp.isdigit():
+    print("Thats not a real answer!")
+    
+# Made by saiflyer on github
+# run this on a python ide!!
